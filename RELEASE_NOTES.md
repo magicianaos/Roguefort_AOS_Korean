@@ -1,10 +1,9 @@
 <!--
-repo: magicianaos/KR-AOS-Roguefort
+repo: magicianaos/Roguefort_AOS_Korean
 tag: v0.9
 title: 로그포트(Roguefort) 한글패치 v0.9 (검수 베타)
 prerelease: true
 files: Roguefort_KR_Patch_v0.9.exe, Roguefort_KR_Review_v0.9.xlsx (두 파일 모두 끌어다 놓기)
-warn: GitHub에 공개 저장소 magicianaos/KR-AOS-Roguefort 가 있어야 새 릴리즈 페이지가 열립니다.
 -->
 # 로그포트(Roguefort) 한글패치 v0.9 (검수 베타)
 

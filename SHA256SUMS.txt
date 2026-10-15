@@ -1,2 +1,0 @@
-a18e22ba4725de5836629109c0174b7b4e42266917ad92ae27eb5be01b8fe63a  Roguefort_KR_Patch_v0.9.exe
-0f8fc695591ad52ccf8ea7b58633f0fbe61fa0ef466d323ba9da151941c1fe18  Roguefort_KR_Review_v0.9.xlsx
