@@ -5,8 +5,8 @@ Steam 게임 **Roguefort** 비공식 한국어 패치입니다.
 ## 받기
 👉 **[최신 버전 받기 (Releases)](https://github.com/magicianaos/Roguefort_AOS_Korean/releases/latest)**
 
-- `Roguefort_KR_Patch_v○○.exe` — 한글패치 런처 (설치·되돌리기·제보하기)
-- `Roguefort_KR_Review_v○○.xlsx` — 검수표 (선택)
+- `Roguefort_KR_Patch_v(버전).exe` — 한글패치 런처 (설치·되돌리기·제보하기)
+- `Roguefort_KR_Review_v(버전).xlsx` — 검수표 (선택)
 
 ## 설치
 1. Steam을 켜고 게임을 구매한 계정으로 로그인, 게임은 종료

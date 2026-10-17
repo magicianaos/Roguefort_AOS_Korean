@@ -2,3 +2,4 @@
 *.exe
 *.xlsx
 _old/
+cleanup_old.cmd
