@@ -1,25 +1,25 @@
 <!--
 repo: magicianaos/Roguefort_AOS_Korean
-tag: v1.0.1
-title: 로그포트(Roguefort) 한글패치 v1.0.1 (정식)
+tag: v1.1
+title: 로그포트(Roguefort) 한글패치 v1.1 (정식)
 prerelease: false
-files: Roguefort_KR_Patch_v1.0.1.exe, Roguefort_KR_Review_v1.0.1.xlsx (두 파일 모두 끌어다 놓기)
+files: Roguefort_KR_Patch_v1.1.exe, Roguefort_KR_Review_v1.1.xlsx (두 파일 모두 끌어다 놓기)
 warn: AOS 최종 번역 검수와 공개 승인 전에는 올리지 마세요.
 warn: GitHub에 공개 저장소 magicianaos/Roguefort_AOS_Korean 가 있어야 새 릴리즈 페이지가 열립니다.
 -->
-# 로그포트(Roguefort) 한글패치 v1.0.1 (정식)
+# 로그포트(Roguefort) 한글패치 v1.1 (정식)
 
 Roguefort (Steam) 한국어 패치입니다. 게임에 표시되는 영어 텍스트 46,881곳(중복 없는 문장 약 39,600개)을 번역한 정식입니다.
 
 ## 받을 파일
 
-- **Roguefort_KR_Patch_v1.0.1.exe** — 한글패치 런처 (설치·되돌리기)
-- **Roguefort_KR_Review_v1.0.1.xlsx** — 검수표 (오역·어색한 문장 제보용, 선택)
+- **Roguefort_KR_Patch_v1.1.exe** — 한글패치 런처 (설치·되돌리기)
+- **Roguefort_KR_Review_v1.1.xlsx** — 검수표 (오역·어색한 문장 제보용, 선택)
 
 ## 설치
 
 1. Steam에서 Roguefort를 최신 상태로 두고 게임을 완전히 종료합니다. **Steam은 켜 두고 게임을 구매한 계정으로 로그인**해 둡니다.
-2. `Roguefort_KR_Patch_v1.0.1.exe`를 실행합니다. Steam에 설치된 게임 폴더를 자동으로 찾습니다.
+2. `Roguefort_KR_Patch_v1.1.exe`를 실행합니다. Steam에 설치된 게임 폴더를 자동으로 찾습니다.
 3. **[패치 설치하기]** 를 누릅니다. 1~3분 걸리며 여유 공간이 약 1.5GB 필요합니다.
 4. Steam에서 게임을 실행하면 한국어로 표시됩니다. 언어를 따로 고를 필요는 없습니다.
 
@@ -28,10 +28,11 @@ Roguefort (Steam) 한국어 패치입니다. 게임에 표시되는 영어 텍�
 ## 지원 버전
 
 - Roguefort 0.32.5 (Steam 빌드 26015876)
-- 런처가 게임 파일(`resources\app.asar`)의 SHA-256을 확인해 지원 원본일 때만 설치합니다. 게임이 업데이트되면 설치되지 않으니 새 패치를 기다려 주세요.
+- 게임 코드는 바꾸지 않습니다. 게임 파일(`resources\app.asar`)에 시작 파일 하나만 끼우고, 한글 로더·번역표를 `resources\kr-app` 에 둡니다. 게임이 업데이트되면 런처에서 [패치 설치하기]를 다시 눌러 주세요(기존 번역 대부분이 새 버전에도 그대로 적용됩니다).
 
 ## 이번 버전 내용
 
+- **v1.1 (2026-10-19):** 설치 방식 변경 — 게임이 켜질 때 한국어를 끼워 넣는 방식. 게임 업데이트 뒤에도 [패치 설치하기]만 다시 누르면 기존 번역이 대부분 그대로 나옵니다. 번역 내용은 v1.0.1과 같습니다
 - **v1.0.1 (2026-10-18):** 게임 0.32.5 대응 — 기존 번역 이식, 새 문장 60여 개 번역(멀티플레이 턴 방식·색상 강도·저장 내보내기 안내 등). 게임 업데이트 뒤에는 패치를 다시 설치해야 합니다
 - **v1.0 (2026-10-17):** 게임 0.32.4 대응 — 기존 번역 약 4만 4천 곳을 새 버전으로 옮기고 새 문장 약 2,400개 번역
 - **v1.0:** NPC 대사·소문·가문 이야기·주변 활동·전투 기록 등 63종 문장을 완성 문장 단위로 번역(어순·조사 깨짐 개선), 약 2만 문장 문맥 검수로 483곳 수정
@@ -57,7 +58,7 @@ Roguefort (Steam) 한국어 패치입니다. 게임에 표시되는 영어 텍�
 - 지도 위에 그려지는 일부 글자(그림으로 그려지는 글자)는 화면 표시 보완이 닿지 않습니다.
 - Steam이 꺼져 있거나 로그인하지 않았으면 설치되지 않습니다. 되돌리기는 Steam 없이도 됩니다.
 - 서명되지 않은 프로그램이라 Windows SmartScreen 경고가 뜰 수 있습니다. [추가 정보] → [실행]을 누르세요.
-- 서명되지 않은 파이썬 프로그램이라 일부 백신(머신러닝 판정)이 오탐할 수 있습니다. 아래 SHA-256 값과 [VirusTotal 검사](https://www.virustotal.com/gui/file/6d6e80dd528137a3bbff2a2fafa81779af0cc550050657f4ec3970b6d82aa23a)로 직접 확인하실 수 있습니다. 런처는 게임의 번역 파일(`app.asar`)만 바꾸며, [제보하기]를 직접 누를 때 외에는 사용자 정보를 보내지 않습니다(새 패치 확인만 합니다).
+- 서명되지 않은 파이썬 프로그램이라 일부 백신(머신러닝 판정)이 오탐할 수 있습니다. 아래 SHA-256 값과 [VirusTotal 검사](https://www.virustotal.com/gui/file/d15c10aa67cd6e137b7ea6b3085a21c69a7dd1ab36bf3089044d684257a6b8f3)로 직접 확인하실 수 있습니다. 런처는 게임 폴더에 한글 로더를 넣고 `app.asar` 의 시작 파일만 바꾸며, [제보하기]를 직접 누를 때 외에는 사용자 정보를 보내지 않습니다(새 패치 확인만 합니다).
 
 ## 피드백
 
@@ -67,11 +68,11 @@ Roguefort (Steam) 한국어 패치입니다. 게임에 표시되는 영어 텍�
 
 ## 파일 확인값 (SHA-256)
 
-- Roguefort_KR_Patch_v1.0.1.exe (17,537,372바이트)
-  `6d6e80dd528137a3bbff2a2fafa81779af0cc550050657f4ec3970b6d82aa23a`
-- Roguefort_KR_Review_v1.0.1.xlsx (4,789,625바이트)
-  `256d8aab4744c036a87201276e2dc7e85107ad47ddd0c8932eb1d0b4772f41b9`
-- 설치 후 게임 파일 `resources\app.asar`: `4bd7deb801a7b032c3587cd63415de0433a48156ae9af27983003c1f82558144`
-- 지원 원본 `resources\app.asar`: `b8444ae647267a40da57dc41e53adf1119b9abd16dd7ae8a2aa1435c244c3321`
+- Roguefort_KR_Patch_v1.1.exe (21,068,875바이트)
+  `d15c10aa67cd6e137b7ea6b3085a21c69a7dd1ab36bf3089044d684257a6b8f3`
+- Roguefort_KR_Review_v1.1.xlsx (4,789,623바이트)
+  `5ff0672bebc1ceba76fcc30bf624c5f34148eba37cda0c62380707e16ae9e0aa`
+- 번역표 `resources\kr-app\ko-table.json`: `870cf435446fa09d710c0d0db66a22ccd5b40f3a5fd12947c76cdcef652d6e93`
+- 번역표를 만든 기준 원본 `resources\app.asar` (0.32.5): `b8444ae647267a40da57dc41e53adf1119b9abd16dd7ae8a2aa1435c244c3321`
 
 배포 파일에는 게임 파일이 들어 있지 않으며, 런처가 내 PC에 설치된 정품 게임의 원본에 번역을 적용합니다. 비공식 팬 번역이며 게임의 저작권은 원 개발사에 있습니다.
