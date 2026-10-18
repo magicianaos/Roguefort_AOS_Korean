@@ -1,25 +1,25 @@
 <!--
 repo: magicianaos/Roguefort_AOS_Korean
-tag: v1.0
-title: 로그포트(Roguefort) 한글패치 v1.0 (정식)
+tag: v1.0.1
+title: 로그포트(Roguefort) 한글패치 v1.0.1 (정식)
 prerelease: false
-files: Roguefort_KR_Patch_v1.0.exe, Roguefort_KR_Review_v1.0.xlsx (두 파일 모두 끌어다 놓기)
+files: Roguefort_KR_Patch_v1.0.1.exe, Roguefort_KR_Review_v1.0.1.xlsx (두 파일 모두 끌어다 놓기)
 warn: AOS 최종 번역 검수와 공개 승인 전에는 올리지 마세요.
 warn: GitHub에 공개 저장소 magicianaos/Roguefort_AOS_Korean 가 있어야 새 릴리즈 페이지가 열립니다.
 -->
-# 로그포트(Roguefort) 한글패치 v1.0 (정식)
+# 로그포트(Roguefort) 한글패치 v1.0.1 (정식)
 
 Roguefort (Steam) 한국어 패치입니다. 게임에 표시되는 영어 텍스트 46,881곳(중복 없는 문장 약 39,600개)을 번역한 정식입니다.
 
 ## 받을 파일
 
-- **Roguefort_KR_Patch_v1.0.exe** — 한글패치 런처 (설치·되돌리기)
-- **Roguefort_KR_Review_v1.0.xlsx** — 검수표 (오역·어색한 문장 제보용, 선택)
+- **Roguefort_KR_Patch_v1.0.1.exe** — 한글패치 런처 (설치·되돌리기)
+- **Roguefort_KR_Review_v1.0.1.xlsx** — 검수표 (오역·어색한 문장 제보용, 선택)
 
 ## 설치
 
 1. Steam에서 Roguefort를 최신 상태로 두고 게임을 완전히 종료합니다. **Steam은 켜 두고 게임을 구매한 계정으로 로그인**해 둡니다.
-2. `Roguefort_KR_Patch_v1.0.exe`를 실행합니다. Steam에 설치된 게임 폴더를 자동으로 찾습니다.
+2. `Roguefort_KR_Patch_v1.0.1.exe`를 실행합니다. Steam에 설치된 게임 폴더를 자동으로 찾습니다.
 3. **[패치 설치하기]** 를 누릅니다. 1~3분 걸리며 여유 공간이 약 1.5GB 필요합니다.
 4. Steam에서 게임을 실행하면 한국어로 표시됩니다. 언어를 따로 고를 필요는 없습니다.
 
@@ -27,11 +27,12 @@ Roguefort (Steam) 한국어 패치입니다. 게임에 표시되는 영어 텍�
 
 ## 지원 버전
 
-- Roguefort 0.32.4 (Steam 빌드 25981403)
+- Roguefort 0.32.5 (Steam 빌드 26015876)
 - 런처가 게임 파일(`resources\app.asar`)의 SHA-256을 확인해 지원 원본일 때만 설치합니다. 게임이 업데이트되면 설치되지 않으니 새 패치를 기다려 주세요.
 
 ## 이번 버전 내용
 
+- **v1.0.1 (2026-10-18):** 게임 0.32.5 대응 — 기존 번역 이식, 새 문장 60여 개 번역(멀티플레이 턴 방식·색상 강도·저장 내보내기 안내 등). 게임 업데이트 뒤에는 패치를 다시 설치해야 합니다
 - **v1.0 (2026-10-17):** 게임 0.32.4 대응 — 기존 번역 약 4만 4천 곳을 새 버전으로 옮기고 새 문장 약 2,400개 번역
 - **v1.0:** NPC 대사·소문·가문 이야기·주변 활동·전투 기록 등 63종 문장을 완성 문장 단위로 번역(어순·조사 깨짐 개선), 약 2만 문장 문맥 검수로 483곳 수정
 - **v1.0:** 직업별 말투(해요체 기본, 일부 직업 반말, 원로 하게체)와 친밀도에 따른 다정한 표현
@@ -56,20 +57,21 @@ Roguefort (Steam) 한국어 패치입니다. 게임에 표시되는 영어 텍�
 - 지도 위에 그려지는 일부 글자(그림으로 그려지는 글자)는 화면 표시 보완이 닿지 않습니다.
 - Steam이 꺼져 있거나 로그인하지 않았으면 설치되지 않습니다. 되돌리기는 Steam 없이도 됩니다.
 - 서명되지 않은 프로그램이라 Windows SmartScreen 경고가 뜰 수 있습니다. [추가 정보] → [실행]을 누르세요.
+- 서명되지 않은 파이썬 프로그램이라 일부 백신(머신러닝 판정)이 오탐할 수 있습니다. 아래 SHA-256 값과 [VirusTotal 검사](https://www.virustotal.com/gui/file/6d6e80dd528137a3bbff2a2fafa81779af0cc550050657f4ec3970b6d82aa23a)로 직접 확인하실 수 있습니다. 런처는 게임의 번역 파일(`app.asar`)만 바꾸며, [제보하기]를 직접 누를 때 외에는 사용자 정보를 보내지 않습니다(새 패치 확인만 합니다).
 
 ## 피드백
 
-**런처의 [제보하기]** 에서 종류를 고르고 내용을 붙여 넣은 뒤 [보내기]를 누르면 바로 접수됩니다(디스코드 계정 필요 없음). 영어가 보이면 게임 중 **`Ctrl+Alt+K`** 로 미번역 목록을 복사해 붙여 넣으면 됩니다. 스크린샷은 [디스코드 제보 채널](https://discord.gg/MY9PUNFrv9)로 보내 주세요. 영어 원문이 궁금하면 게임 중 **CapsLock** 을 누르세요.
+**영어가 보이면 게임 중 `Ctrl+Alt+K`** 를 누르세요. 지금까지 화면에 나온 미번역 문구 목록이 클립보드에 복사됩니다. 디스코드에 그대로 붙여 넣어 주시면 다음 버전에 반영합니다. (`Ctrl+Alt+Shift+K` = 목록 비우기)
 
-검수표의 「번역 목록」에서 문제가 있는 줄의 노란 칸(문제 / 고친 번역 / 의견)만 채워 주세요. 목록에서 찾기 어려우면 Ctrl+F로 검색하면 됩니다. 목록에 없는 문제(글자 깨짐·잘림, 남은 영어)는 「자유 제보」 시트나 스크린샷으로 [KR-AOS 디스코드](https://discord.gg/smZSgx5Ct)에 올려 주세요.
+검수표의 「번역 목록」에서 문제가 있는 줄의 노란 칸(문제 / 고친 번역 / 의견)만 채워 주세요. 목록에서 찾기 어려우면 Ctrl+F로 검색하면 됩니다. 목록에 없는 문제(글자 깨짐·잘림, 남은 영어)는 「자유 제보」 시트나 스크린샷으로 [KR-AOS 디스코드](https://discord.gg/MY9PUNFrv9)에 올려 주세요.
 
 ## 파일 확인값 (SHA-256)
 
-- Roguefort_KR_Patch_v1.0.exe (17,534,621바이트)
-  `e4b26c0e334a282d4f134b4904a97231c79d517d7075bcf24068d602021b9719`
-- Roguefort_KR_Review_v1.0.xlsx (4,785,459바이트)
-  `90975659ee5f4d4bd489c69c3794d33b11a69e29cc9c790dff9e783e98942c42`
-- 설치 후 게임 파일 `resources\app.asar`: `9d3b649eb465f3c931bb37c8a49dc4f150b1e869b73be091136c0e89e336a1e1`
-- 지원 원본 `resources\app.asar`: `93b73bb3d3814973e81fedbf29c6298c2ed683c878ae9b340c16cbe3812c5a2f`
+- Roguefort_KR_Patch_v1.0.1.exe (17,537,372바이트)
+  `6d6e80dd528137a3bbff2a2fafa81779af0cc550050657f4ec3970b6d82aa23a`
+- Roguefort_KR_Review_v1.0.1.xlsx (4,789,625바이트)
+  `256d8aab4744c036a87201276e2dc7e85107ad47ddd0c8932eb1d0b4772f41b9`
+- 설치 후 게임 파일 `resources\app.asar`: `4bd7deb801a7b032c3587cd63415de0433a48156ae9af27983003c1f82558144`
+- 지원 원본 `resources\app.asar`: `b8444ae647267a40da57dc41e53adf1119b9abd16dd7ae8a2aa1435c244c3321`
 
 배포 파일에는 게임 파일이 들어 있지 않으며, 런처가 내 PC에 설치된 정품 게임의 원본에 번역을 적용합니다. 비공식 팬 번역이며 게임의 저작권은 원 개발사에 있습니다.
