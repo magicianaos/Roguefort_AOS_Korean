@@ -1,6 +1,6 @@
 # 로그포트(Roguefort) 한글패치
 
-Steam 게임 **Roguefort** 비공식 한국어 패치입니다. 현재 버전은 **v2.2.6**(게임 0.36.0 대응, 0.35.1·0.35.0·0.34.2 도 지원)입니다.
+Steam 게임 **Roguefort** 비공식 한국어 패치입니다. 현재 버전은 **v2.2.7**(게임 0.37.0 대응, 0.36.0·0.35.1·0.35.0·0.34.2 도 지원)입니다.
 
 ## 받기
 👉 **[최신 버전 받기 (Releases)](https://github.com/magicianaos/Roguefort_AOS_Korean/releases/latest)**
